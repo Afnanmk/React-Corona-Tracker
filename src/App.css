@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color: rgb(255, 255, 255);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.app__title {
+  font-size: 27px;
+  letter-spacing: 3px;
+  color: rgb(34, 34, 34);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 span {
+  color: rgb(233, 15, 15);
+}
+.app__header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 25px;
+}
+.app__stats {
+  display: flex;
+  justify-content: space-between;
+}
+.app__left {
+  flex: 0.9;
 }
 
-.App-link {
-  color: #61dafb;
+.app__information > h5 {
+  font-size: 17px;
+  color: rgb(10, 168, 207);
+  border-bottom: 5px solid rgb(10, 168, 207);
+  text-transform: uppercase;
+  height: 25px;
+  margin-bottom: 14px;
+  width: 183px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.app__information > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 13px;
+  color: rgb(141, 141, 141);
+  margin-bottom: 15px;
+}
+.searchInput {
+  padding: 7px;
+  width: 300px;
+  font-weight: bold;
+}
+.searchInput::placeholder {
+  font-weight: lighter;
+}
+.app__chart {
+  margin-top: 13px;
+}
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
   }
 }

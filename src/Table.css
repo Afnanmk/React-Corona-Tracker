@@ -1,0 +1,28 @@
+.table {
+  font-family: Helvetica, sans-serif;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(77, 74, 74);
+  margin-top: 14px;
+  overflow: scroll;
+  height: 600px;
+}
+.table td,
+.table th {
+  border: 1px solid rgb(202, 198, 198);
+  padding: 10px 3px;
+  padding-left: -10px;
+  align-items: center;
+  text-align: center;
+}
+
+.countryName {
+  background-color: rgb(244, 244, 245);
+  text-align: left !important;
+  padding-left: 9px !important;
+  /* padding-right: -10px !important; */
+}
+.countryName:hover {
+  background-color: rgb(165, 233, 216);
+}
