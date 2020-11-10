@@ -1,0 +1,10 @@
+.lineGraph > h5 {
+  font-size: 15px;
+  font-weight: 900;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.lineGraph {
+  position: relative;
+  height: 230px;
+}

@@ -3,14 +3,14 @@
   border-collapse: collapse;
   font-size: 14px;
   font-weight: bold;
-  color: rgb(77, 74, 74);
+  color: rgb(48, 47, 47);
   margin-top: 14px;
   overflow: scroll;
-  height: 600px;
+  height: 550px;
 }
 .table td,
 .table th {
-  border: 1px solid rgb(202, 198, 198);
+  border: 1px solid rgb(228, 225, 225);
   padding: 10px 3px;
   padding-left: -10px;
   align-items: center;
@@ -18,11 +18,12 @@
 }
 
 .countryName {
-  background-color: rgb(244, 244, 245);
+  background-color: rgb(236, 255, 248);
   text-align: left !important;
   padding-left: 9px !important;
   /* padding-right: -10px !important; */
 }
+
 .countryName:hover {
   background-color: rgb(165, 233, 216);
 }
