@@ -1,3 +1,13 @@
+# React Covid-19 Tracker with API
+
+#### Technologies used:
+- React
+- Material UI
+- Leaflet.js
+- chart.js
+- API 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
